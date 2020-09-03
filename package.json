@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "electron ./index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildWin32":"electron-packager . VidaBrowser --overwrite --asar=true --platform=win32 --arch=ia32 --icon=logo.png --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName='Vida Browser'"
   },
   "author": "Diego Rodríguez Paiva",
   "license": "ISC",
