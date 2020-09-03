@@ -1,0 +1,16 @@
+{
+  "name": "electronvidabrowser",
+  "version": "1.0.0",
+  "description": "Un browser pa vida",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Diego Rodríguez Paiva",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^10.1.1",
+    "electron-packager": "^15.1.0"
+  }
+}
